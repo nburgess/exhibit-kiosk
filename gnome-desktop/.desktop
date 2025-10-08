@@ -1,0 +1,19 @@
+mkdir -p /home/ubuntu/.config/autostart
+sudo tee /home/ubuntu/.config/autostart/kiosk-chromium.desktop > /dev/null <<'EOF'
+[Desktop Entry]
+Type=Application
+Name=Kiosk Chromium
+Comment=Open UI in kiosk on boot
+Exec=/usr/bin/bash -lc '
+sleep 3
+
+/usr/bin/xset s off
+/usr/bin/xset -dpms
+/usr/bin/xset s noblank
+/snap/bin/chromium --kiosk --start-fullscreen --ozone-platform=wayland --no-first-run --disable-infobars --incognito "http://localhost:5173"
+'
+X-GNOME-Autostart-enabled=true
+EOF
+
+sudo chown ubuntu:ubuntu /home/ubuntu/.config/autostart/kiosk-chromium.desktop
+chmod 644 /home/ubuntu/.config/autostart/kiosk-chromium.desktop

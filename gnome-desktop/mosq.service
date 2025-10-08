@@ -1,0 +1,14 @@
+[Unit]
+Description=MQTT Broker (eclipse-mosquitto) via project wrapper
+After=docker.service network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/home/ubuntu/Projects/eye/mosq/run-mosq.sh
+ExecStop=/usr/bin/docker rm -f mosq || true
+TimeoutStartSec=infinity
+
+[Install]
+WantedBy=multi-user.target

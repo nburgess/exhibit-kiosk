@@ -1,0 +1,25 @@
+# reload systemd configs
+sudo systemctl daemon-reload
+
+# enable and start mosq
+sudo systemctl daemon-reload
+sudo systemctl enable --now mosq.service
+sudo systemctl status mosq.service --no-pager
+
+# enable and start express
+sudo systemctl enable --now express.service
+sudo systemctl status express.service --no-pager
+
+# enable and start ui
+sudo systemctl enable --now ui.service
+sudo systemctl status ui.service --no-pager
+
+#check logs
+sudo journalctl -u mosq.service -n 200 --no-pager
+sudo journalctl -u express.service -n 200 --no-pager
+sudo journalctl -u ui.service -n 200 --no-pager
+
+
+
+#stop it
+sudo systemctl stop ui.service express.service mosq.service

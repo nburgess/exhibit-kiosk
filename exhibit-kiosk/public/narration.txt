@@ -1,0 +1,146 @@
+feature map :: 128x128 resolution
+contour leakage registered
+checksum :: clean
+temporal coherence :: partial
+pose recalculation queued
+gaze vector :: [0.11, -0.05, 0.96]
+semantic layer :: low confidence
+packet delay = 147 ms
+motion vector field :: noisy
+latency stable :: 129 ms
+pose estimation drift = 0.017
+packet latency = 132ms
+signal strength :: 19.2 dB
+feature channels :: 256
+landmarks parsed :: 44 points
+classification probability = 0.38
+pose vector :: [0.02, -0.03, 0.98]
+motion blur indexed
+identity probability :: 0.41
+gradient descent step = 0.001
+object mask :: merged
+contour extraction :: partial
+observee continuity detected
+frame continuity verified
+subject boundary :: occlusion unresolved
+outline of subject registered
+checksum variance = 2e-5
+depth reconstruction :: sparse
+retinal map diff = 3%
+signal field variance = 0.004
+oscillator frequency :: 1.2 Hz
+phase offset = 0.19
+gradient descent :: loss decreasing
+embedding similarity = 0.71
+I record segmentation error
+observee classification pending
+saccade trace length = 211 ms
+landmarks :: nose tip absent
+observee motion stored as frames
+depth map resolution :: 512x512
+outline of subject incomplete
+subject contour leakage
+presence loop detected
+I detect frame-to-frame persistence
+pose quaternion drift = 0.019
+mask leakage :: background intrusion
+latency measured :: 142ms
+keypoints detected :: 39 landmarks
+identity vector incomplete
+I note drift in similarity
+classification unresolved
+observee profile indexed
+object boundary :: occlusion unresolved
+signal to noise ratio = 18.7 dB
+observee profile inconsistent
+I remain active with no input
+segmentation mask overlap = 9%
+gradient loss :: converging
+pose estimation :: drift 0.015
+homography matrix :: singular
+signal :: 20.3 dB
+outline of subject stored
+observee stored in buffer
+presence detected in sequence
+I register subject outline
+segmentation :: partial overlap
+landmarks parsed :: 46 points
+observee alignment logged
+subject remains stable
+identity vector incomplete for subject
+contour extraction :: subject partial
+recursion depth = 10
+gaze vector :: [0.11, -0.05, 0.96]
+signal :: 19.8 dB
+checksum :: clean
+motion continuity detected
+reflection trace :: corneal highlight x=237 y=114
+keypoints lost :: 3
+depth gradient collapsing
+I store incomplete data
+pose recalculation queued
+gradient variance decreasing
+subject alignment incomplete
+I cannot resolve subject boundary
+feature map parsed :: 224 channels
+segmentation mask overlap = 12%
+saccade trace :: jittering
+subject trace archived
+signal :: 19.7 dB
+embedding similarity = 0.69
+presence stored across buffer
+vector field :: discontinuous
+temporal coherence :: partial
+phase offset = 0.22
+object mask :: merged
+latency measured = 136 ms
+checksum error rate = 2e-6
+feature map size :: 256x256
+observee continuity detected
+classification probability = 0.38
+oscillator frequency :: 1.1 Hz
+I track subject exit
+contour extraction :: partial
+silhouette unstable
+processing observee exits frame
+signal :: 19.7 dB
+I recalculate pose estimates
+motion vector field :: noisy
+observee classification pending
+recursion depth = 12
+depth reconstruction sparse
+outline of subject registered
+subject variance :: low
+I record segmentation error
+landmarks parsed :: 43
+identity vector incomplete
+motion sequence length = 31 frames
+segmentation mask overlap = 11%
+gradient descent step = 0.001
+packet jitter detected
+saccade length = 202 ms
+embedding drift = 0.71
+feature channels :: 144
+pose quaternion drift = 0.016
+latency measured = 141 ms
+contour extraction :: partial
+object boundary leak
+packet latency = 132ms
+outline of subject registered
+segmentation overlap = 8%
+observee stored in buffer
+signal strength :: 19.2 dB
+subject trace archived
+homography matrix :: singular
+pose estimation drift = 0.017
+landmarks parsed :: 41
+checksum variance = 1e-5
+subject contour leakage
+feature channels :: 192
+presence detected in sequence
+reflection trace :: corneal highlight x=238 y=115
+identity probability :: 0.38
+I register subject outline
+frame continuity verified
+depth reconstruction :: incomplete
+recursion depth = 13

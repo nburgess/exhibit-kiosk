@@ -1,0 +1,10 @@
+
+
+# Run to see if X11 or other, effects the kiosk-chromium.desktop EXEC command
+echo $XDG_SESSION_TYPE
+sudo snap install chromium
+
+# Run to prevent system from sleeping
+sudo systemctl mask sleep.target suspent.target hibernate.target hybrid-sleep.target
+
+sudo reboot

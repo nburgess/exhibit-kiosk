@@ -1,0 +1,23 @@
+
+
+# MQTT Broker
+
+## Run MQTT Broker
+chmod +x run-mosq.sh
+sudo ./run-mosq.sh
+sudo docker ps -> check if alive
+
+## Stop MQTT Broker
+docker rm -f mosq
+
+
+# Express Server - Consumer MQTT publish events
+   npm install
+   node sse-server.js
+
+# Start UI
+   npm install
+   npm run dev
+
+# Camera setup
+   Point MQTT to current PC IP

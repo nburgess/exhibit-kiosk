@@ -1,0 +1,18 @@
+[Unit]
+Description=Express SSE Server
+After=network-online.target mosq.service
+Wants=network-online.target mosq.service
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/Projects/eye/express-mqtt-server
+ExecStart=/home/ubuntu/Projects/eye/gnome-desktop/run-express.sh
+Restart=always
+RestartSec=5
+TimeoutStartSec=infinity
+Environment=NODE_ENV=production
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

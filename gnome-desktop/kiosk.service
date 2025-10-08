@@ -1,0 +1,19 @@
+[Unit]
+Description=UI Dev Server (npm run dev)
+After=network-online.target express.service
+Wants=network-online.target express.service
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/Projects/eye/exhibit-kiosk
+ExecStart=/home/ubuntu/Projects/eye/gnome-desktop/run-exhibit-kiosk.sh
+Restart=on-failure
+RestartSec=3
+TimeoutStartSec=infinity
+Environment=NODE_ENV=development
+Environment=HOME=/home/ubuntu
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
